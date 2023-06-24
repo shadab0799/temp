@@ -1,0 +1,12 @@
+{
+	"name": "AzureSqlDatabase",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"connectionString": "integrated security=False;encrypt=True;connection timeout=30;data source=shadabs.database.windows.net;initial catalog=shadabdb;user id=demo",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDREMDY1QTc3LTQzOTEtNEI5MS1CQjY3LUZCMkM2Rjc1QzU0NF84MmYzNGM5Ny1kYjgxLTQxYjItYjAyYS1iZmZmMmJkYTM5N2YiDQp9"
+		}
+	}
+}
